@@ -33,8 +33,8 @@ You can either clone this repository using Git or manually download the script.
 
 2. **Clone the Repository**:
    ```sh
-   git clone https://github.com/Ripper1004/CyberPatriot-Security-Script.git
-   cd CyberPatriot-Security-Script
+   git clone https://github.com/Ripper1004/CyberPatriot-Security-Script-Ubuntu-22.04-LTS.git
+   cd CyberPatriot-Security-Script-Ubuntu-22.04-LTS
    ```
 
 3. **Run the Script**:
@@ -44,7 +44,7 @@ You can either clone this repository using Git or manually download the script.
 
 #### Option 2: Manual Download of the Script
 1. **Download the Script Manually**:
-   - Navigate to the GitHub repository (e.g., `https://github.com/Ripper1004/CyberPatriot-Security-Script`).
+   - Navigate to the GitHub repository (e.g., `https://github.com/Ripper1004/CyberPatriot-Security-Script-Ubuntu-22.04-LTS`).
    - Click on the **"Code"** button, then click **"Download ZIP"**.
    - Extract the ZIP file to a location on your computer.
 
@@ -58,6 +58,10 @@ You can either clone this repository using Git or manually download the script.
 - **Root Privileges**: The script requires root privileges to make system-wide changes. Always run the script with `sudo`.
 - **Manual Verification**: While the script automates basic security hardening, manual verification is recommended to ensure all CyberPatriot-specific requirements are met.
 - **Firewall Configuration**: The script uses UFW to manage firewall settings. Ensure that any necessary services are allowed through the firewall.
+- **Script Execution Policy**: To run only this script without changing the overall system execution policy, use the following command:
+   ```sh
+   sudo bash secure_ubuntu.sh
+   ```
 
 ## Script Summary
 After running, the script provides a summary of each action performed, indicating whether it was successful or failed. This helps in identifying areas that need manual intervention.
